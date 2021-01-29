@@ -43,12 +43,21 @@
 .links {
   margin-right: 20px;
   color: black;
-  opacity: 0.7;
+  text-decoration: none;
+}
+
+.links:hover {
+  text-decoration: underline;
+  color: red;
 }
 
 .links2 {
   color: #1a73e8;
   text-decoration: none;
+}
+
+.links2:hover {
+  text-decoration: underline;
 }
 
 .fullcard {
