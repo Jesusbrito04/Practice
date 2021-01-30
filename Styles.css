@@ -1,3 +1,12 @@
+.posicionar {
+  position: relative;
+}
+
+.posicionar2 {
+  position: absolute;
+  right: 0;
+}
+
 .logogoogle {
   width: 60px;
   margin-left: 20px;
