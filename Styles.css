@@ -1,4 +1,46 @@
+.cubito {
+  background: linear-gradient(180deg, yellow, blue, red);
+  width: 500px;
+  height: 500px;
+  margin-left: 35%;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.cubito:hover {
+  transform: scale(1.1);
+}
+
+.barnav {
+  width: 100%;
+  background-color: red;
+  padding: 1;
+  position: fixed;
+  z-index: 2;
+}
+
+nav ul {
+  margin: 0;
+  padding: 5px 10px 5px 0;
+}
+
+nav li {
+  display: inline;
+  opacity: 1;
+  margin-right: 20px;
+  color: black;
+}
+
+nav li:hover {
+  text-decoration: underline;
+}
+
+.navlink {
+  text-decoration: none;
+}
+
 .posicionar {
+  height: 1000px;
   position: relative;
 }
 
@@ -28,6 +70,10 @@
   margin: 10px 5px;
   height: auto;
   box-shadow: 2px 5px 10px 5px;
+}
+
+.fullcard2:hover {
+  transform: scale(1.1);
 }
 
 .search {
@@ -76,6 +122,10 @@
   padding: 4px;
   width: 280px;
   box-shadow: 2px 2px 2px 2px;
+}
+
+.fullcard:hover {
+  transform: scale(1.1);
 }
 
 .cardcontent {
