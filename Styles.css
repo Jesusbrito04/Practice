@@ -1,3 +1,12 @@
+.luna {
+  margin-top: 100px;
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 25px 10px 0px 10px black;
+}
+
 .cubito {
   background: linear-gradient(180deg, yellow, blue, red);
   width: 500px;
