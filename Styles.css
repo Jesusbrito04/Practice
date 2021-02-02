@@ -1,3 +1,37 @@
+.cubito2 {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  margin-top: 50px;
+  margin-left: 35%;
+  position: absolute;
+}
+
+#cubito2 {
+  animation-name: alcoiris;
+  animation-duration: 5s;
+}
+
+@keyframes alcoiris {
+  0% {
+    background-color: aqua;
+  }
+  25% {
+    background-color: blue;
+  }
+  50% {
+    background-color: green;
+  }
+
+  75% {
+    background-color: red;
+  }
+
+  100% {
+    background-color: yellow;
+  }
+}
+
 .luna {
   margin-top: 100px;
   background-color: transparent;
