@@ -1,6 +1,36 @@
+.circulito {
+  margin: auto;
+  width: 250px;
+  height: 250px;
+  background-color: green;
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+  bottom: 220px;
+}
+
+#circulito:hover {
+  animation-name: movimiento;
+  animation-duration: 5s;
+}
+
+@keyframes movimiento {
+  0% {
+    margin-right: 0px;
+  }
+
+  50% {
+    margin-right: 150px;
+  }
+
+  100% {
+    margin-right: 0px;
+  }
+}
+
 .cubito2 {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   background-color: black;
   margin-top: 50px;
   margin-left: 35%;
