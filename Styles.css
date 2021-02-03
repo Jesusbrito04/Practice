@@ -7,9 +7,10 @@
   position: absolute;
 }
 
-#cubito2 {
+#cubito2:hover {
   animation-name: alcoiris;
   animation-duration: 5s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes alcoiris {
